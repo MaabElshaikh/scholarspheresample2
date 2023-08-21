@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Submit a Scholarship - ScholarSphere</title>
+</head>
+
+<body>
+    <header>
+       
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="submit-form">
+            <h2>Submit a Scholarship</h2>
+            <form action="/submit" method="post">
+                <label for="name">Name of Scholarship:</label>
+                <input type="text" id="name" name="name" required><br>
+
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location"><br>
+
+                <label for="university">University:</label>
+                <input type="text" id="university" name="university"><br>
+
+                <label for="deadline">Deadline:</label>
+                <input type="date" id="deadline" name="deadline" required><br>
+
+                <label for="degrees_and_domains">Degrees and Domains:</label>
+                <input type="text" id="degrees_and_domains" name="degrees_and_domains"><br>
+
+                <label for="criteria">Criteria:</label>
+                <input type="text" id="criteria" name="criteria"><br>
+
+                <label for="needed_papers">Needed Papers:</label>
+                <input type="text" id="needed_papers" name="needed_papers"><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+       
+    </footer>
+</body>
+</html>
